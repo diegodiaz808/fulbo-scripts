@@ -1,0 +1,370 @@
+{
+  "_meta": {
+    "lang": "es-AR",
+    "video_format": "vertical 9:16",
+    "duration_hint": "20-35s",
+    "visual_style": "Estilo deportivo moderno, oscuro, con acentos neón verdes. Estética de manager/UI futbolera mezclada con realismo semi-cinematográfico. Siempre 9:16 vertical.",
+    "rule": "Coherencia por topic: hook, context, body, cta e imagenes de un video DEBEN pertenecer al mismo topic."
+  },
+  "topics": {
+    "AI_MANAGER": {
+      "name": "Sos el DT, la IA juega",
+      "description": "Fulbo es un manager donde armas el equipo y una IA simula el partido 11vs11.",
+      "hooks": [
+        {"id": "AI_MANAGER_HOOK_A", "text": "No vas a tocar a ningún jugador. Y aún así podés ganarlo todo."},
+        {"id": "AI_MANAGER_HOOK_B", "text": "Esto no es FIFA. Acá no movés a nadie en la cancha."},
+        {"id": "AI_MANAGER_HOOK_C", "text": "¿Y si el mejor del partido nunca toca la pelota?"}
+      ],
+      "contexts": [
+        {"id": "AI_MANAGER_CONTEXT_A", "text": "Fulbo es un juego donde sos el DT: armás el equipo y una IA juega el partido 11 contra 11 por vos."},
+        {"id": "AI_MANAGER_CONTEXT_B", "text": "En Fulbo no controlás futbolistas. Sos el director técnico y la inteligencia artificial simula cada partido."}
+      ],
+      "bodies": [
+        {"id": "AI_MANAGER_BODY_A", "text": "Vos elegís formación, roles y estilo. Después apretás jugar y en 3 minutos la IA resuelve tu plan. Si armaste bien, ganás. Si no, te lo hace notar."},
+        {"id": "AI_MANAGER_BODY_B", "text": "Definís todo antes del pitazo: línea defensiva, presión, quién crea y quién corre. Durante el partido no hacés nada. Tu cabeza ya jugó."},
+        {"id": "AI_MANAGER_BODY_C", "text": "El que tiene mejores reflejos no gana. Gana el que pensó mejor el equipo. La IA no premia el palmareo, premia la estrategia."}
+      ],
+      "ctas": [
+        {"id": "AI_MANAGER_CTA_A", "text": "Probá ser DT en la beta de Fulbo. Link en bio."},
+        {"id": "AI_MANAGER_CTA_B", "text": "La beta ya está abierta. Armá tu equipo en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "AI_MANAGER_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "DT frente a la cancha sin joystick", "prompt": "Plano vertical 9:16. Un director técnico de espaldas mirando una cancha iluminada de noche, con las manos en los bolsillos (sin joystick ni control). Atmósfera de estadio, luces neón verdes sutiles. Estética cinematográfica deportiva."},
+        {"id": "AI_MANAGER_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Joystick tachado", "prompt": "Plano vertical 9:16. Un joystick/control de consola sobre fondo oscuro con una gran X o símbolo de prohibido en verde neón encima. Mensaje visual: acá no se juega con las manos."},
+        {"id": "AI_MANAGER_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Pizarra táctica 11vs11", "prompt": "Plano vertical 9:16. Pizarra táctica digital con 11 fichas vs 11 fichas y flechas de movimiento, estilo UI de manager, acentos verde neón sobre fondo oscuro."},
+        {"id": "AI_MANAGER_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Pantalla de formación 4-3-3 con roles", "prompt": "Plano vertical 9:16. UI de selección de formación 4-3-3 con tarjetas de jugadores y etiquetas de rol (creador, box-to-box, velocista). Estilo app deportiva oscura con verde neón."},
+        {"id": "AI_MANAGER_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Simulación en vista cenital", "prompt": "Plano vertical 9:16. Vista cenital de una cancha con jugadores moviéndose en simulación, líneas de pase resaltadas por IA, overlay de datos en verde neón. Sensación de partido autojugado."},
+        {"id": "AI_MANAGER_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón JUGAR / beta", "prompt": "Plano vertical 9:16. Pantalla con logo de Fulbo y un botón grande 'JUGAR BETA' en verde neón sobre fondo oscuro, llamado a la acción claro."}
+      ]
+    },
+    "PLAYER_LIFESPAN": {
+      "name": "Tus jugadores se mueren",
+      "description": "Cada jugador dura 500-700 partidos (~4 meses) y luego expira para siempre.",
+      "hooks": [
+        {"id": "PLAYER_LIFESPAN_HOOK_A", "text": "Tu mejor jugador tiene fecha de vencimiento."},
+        {"id": "PLAYER_LIFESPAN_HOOK_B", "text": "En este juego, los cracks se mueren. En serio."},
+        {"id": "PLAYER_LIFESPAN_HOOK_C", "text": "Comprás un fenómeno y en 4 meses desaparece para siempre."}
+      ],
+      "contexts": [
+        {"id": "PLAYER_LIFESPAN_CONTEXT_A", "text": "Fulbo es un manager de fútbol donde sos DT y la IA juega. Cada jugador es tuyo, pero tiene vida útil."},
+        {"id": "PLAYER_LIFESPAN_CONTEXT_B", "text": "En Fulbo armás tu plantel como DT. Lo que pocos saben: cada futbolista dura entre 500 y 700 partidos y después expira."}
+      ],
+      "bodies": [
+        {"id": "PLAYER_LIFESPAN_BODY_A", "text": "Cada jugador rinde 500 a 700 partidos, unos 4 meses. Cuando se agota, se va del ecosistema para siempre. No hay renovación: planificás tu plantel como un DT de verdad."},
+        {"id": "PLAYER_LIFESPAN_BODY_B", "text": "No existe el jugador eterno. A medida que se gasta, baja su valor y se acerca su retiro. Manejar esos tiempos es la mitad del juego."},
+        {"id": "PLAYER_LIFESPAN_BODY_C", "text": "¿Vendés a tu crack antes de que se gaste o lo exprimís hasta el final? Esa decisión define tu temporada."}
+      ],
+      "ctas": [
+        {"id": "PLAYER_LIFESPAN_CTA_A", "text": "Armá tu plantel antes de que se gaste. Beta abierta, link en bio."},
+        {"id": "PLAYER_LIFESPAN_CTA_B", "text": "Probá la beta de Fulbo en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "PLAYER_LIFESPAN_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Jugador con barra de vida casi vacía", "prompt": "Plano vertical 9:16. Tarjeta de jugador de fútbol con una barra de vida útil casi agotada en rojo/verde, sobre fondo oscuro. Sensación de cuenta regresiva."},
+        {"id": "PLAYER_LIFESPAN_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Plantel con contadores de partidos restantes", "prompt": "Plano vertical 9:16. Grilla de tarjetas de jugadores, cada una con un contador 'partidos restantes'. UI de manager oscura con verde neón."},
+        {"id": "PLAYER_LIFESPAN_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Jugador desvaneciéndose / expirando", "prompt": "Plano vertical 9:16. Silueta de un futbolista desintegrándose en partículas, simbolizando la expiración. Tono dramático, fondo oscuro, acento verde."},
+        {"id": "PLAYER_LIFESPAN_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Calendario de 4 meses de vida útil", "prompt": "Plano vertical 9:16. Calendario o línea de tiempo de ~4 meses con la silueta de un jugador al inicio y un ícono de retiro al final."},
+        {"id": "PLAYER_LIFESPAN_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón armar plantel / beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'ARMÁ TU PLANTEL' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "SCOUTS": {
+      "name": "Tu cantera produce sola",
+      "description": "Hasta 2 scouts por equipo, cada uno genera 1 jugador nuevo por semana.",
+      "hooks": [
+        {"id": "SCOUTS_HOOK_A", "text": "Cada semana aparece un jugador nuevo en tu club. Gratis."},
+        {"id": "SCOUTS_HOOK_B", "text": "Tenés una fábrica de jugadores trabajando mientras dormís."},
+        {"id": "SCOUTS_HOOK_C", "text": "Tus jugadores se gastan. Pero tu cantera nunca para."}
+      ],
+      "contexts": [
+        {"id": "SCOUTS_CONTEXT_A", "text": "Fulbo es un juego donde sos DT y la IA juega los partidos. Para no quedarte sin equipo, tenés scouts."},
+        {"id": "SCOUTS_CONTEXT_B", "text": "En Fulbo los jugadores expiran. Por eso cada club tiene scouts que renuevan el plantel."}
+      ],
+      "bodies": [
+        {"id": "SCOUTS_BODY_A", "text": "Cada equipo puede tener hasta 2 scouts. Cada scout te genera 1 jugador nuevo por semana. Es tu forma de reponer a los que se gastan sin depender del mercado."},
+        {"id": "SCOUTS_BODY_B", "text": "Mientras tus titulares envejecen, los scouts producen sangre nueva. A veces sale un descarte. A veces, el próximo crack de tu equipo."},
+        {"id": "SCOUTS_BODY_C", "text": "2 scouts, 2 jugadores nuevos por semana. La pregunta es: ¿los usás, los vendés o esperás el diamante?"}
+      ],
+      "ctas": [
+        {"id": "SCOUTS_CTA_A", "text": "Activá tus scouts en la beta de Fulbo. Link en bio."},
+        {"id": "SCOUTS_CTA_B", "text": "Empezá tu cantera en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "SCOUTS_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Sobre/pack de jugador nuevo abriéndose", "prompt": "Plano vertical 9:16. Un sobre o pack brillando y abriéndose revelando una tarjeta de jugador nuevo, partículas verde neón, fondo oscuro."},
+        {"id": "SCOUTS_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Dos scouts asignados al club", "prompt": "Plano vertical 9:16. UI mostrando dos slots de scout ocupados con íconos de ojeadores, estilo manager oscuro con verde neón."},
+        {"id": "SCOUTS_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Ficha de scout report semanal", "prompt": "Plano vertical 9:16. Informe de ojeador semanal con un jugador descubierto, sus atributos y la etiqueta 'nuevo'. UI deportiva oscura."},
+        {"id": "SCOUTS_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Cantera / academia de jugadores", "prompt": "Plano vertical 9:16. Instalación de academia juvenil con jóvenes futbolistas entrenando, tono cinematográfico, acento verde neón."},
+        {"id": "SCOUTS_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón activar scouts / beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'ACTIVAR SCOUTS' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "RARITY": {
+      "name": "El 98 no existe",
+      "description": "Mayoría 68-80; 1.9% llega a 90-95; 0.01% a 97; el 98-99 no existe.",
+      "hooks": [
+        {"id": "RARITY_HOOK_A", "text": "El jugador perfecto no existe en este juego. A propósito."},
+        {"id": "RARITY_HOOK_B", "text": "Solo el 0,01% de los jugadores llega a 97. Vos arrancás con 70."},
+        {"id": "RARITY_HOOK_C", "text": "Olvidate del 99. Acá el techo es casi imposible."}
+      ],
+      "contexts": [
+        {"id": "RARITY_CONTEXT_A", "text": "Fulbo es un manager donde sos DT y la IA juega. Cada jugador tiene un rating, y los buenos son rarísimos."},
+        {"id": "RARITY_CONTEXT_B", "text": "En Fulbo armás tu equipo con jugadores de atributos fijos. Los ratings altos son extremadamente raros."}
+      ],
+      "bodies": [
+        {"id": "RARITY_BODY_A", "text": "La mayoría está entre 68 y 80. Solo el 1,9% llega a 90-95. El 97 lo toca un 0,01%. El 98 y 99 directamente no existen. Encontrar un crack es un evento."},
+        {"id": "RARITY_BODY_B", "text": "Como casi nadie es elite, el valor está en armar un conjunto que funcione, no en tener una estrella. Un buen sistema le gana a un buen nombre."},
+        {"id": "RARITY_BODY_C", "text": "Cuando te sale un 90+, tenés algo que casi nadie tiene. Eso vale oro en el mercado."}
+      ],
+      "ctas": [
+        {"id": "RARITY_CTA_A", "text": "Buscá tu crack en la beta de Fulbo. Link en bio."},
+        {"id": "RARITY_CTA_B", "text": "Probá tu suerte en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "RARITY_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Rating 99 tachado", "prompt": "Plano vertical 9:16. Un número '99' grande tachado en rojo sobre fondo oscuro, con '97' brillando debajo en dorado. Mensaje: el techo es casi imposible."},
+        {"id": "RARITY_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Tarjeta de jugador con rating 74", "prompt": "Plano vertical 9:16. Tarjeta de jugador estilo manager con rating destacado '74' y atributos (velocidad, pase, remate, defensa, físico), fondo oscuro verde neón."},
+        {"id": "RARITY_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Pirámide de rareza de ratings", "prompt": "Plano vertical 9:16. Infografía piramidal: base ancha 68-80, medio 90-95 (1,9%), punta 97 (0,01%). Estilo data viz oscuro con verde neón y dorado en la punta."},
+        {"id": "RARITY_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Carta dorada 90+ brillando", "prompt": "Plano vertical 9:16. Tarjeta de jugador dorada con rating 92 emitiendo brillo, rodeada de cartas comunes grises. Contraste de rareza."},
+        {"id": "RARITY_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón buscar crack / beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'BUSCÁ TU CRACK' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "MARKET": {
+      "name": "Comprá barato, vendé caro",
+      "description": "Mercado abierto: jugadores como activos; valor segun rendimiento, encaje y lifespan.",
+      "hooks": [
+        {"id": "MARKET_HOOK_A", "text": "Acá no solo se juega al fútbol. Se hace plata."},
+        {"id": "MARKET_HOOK_B", "text": "El mismo jugador puede valer el triple en una semana."},
+        {"id": "MARKET_HOOK_C", "text": "Hay gente que gana sin jugar un partido: compra y vende."}
+      ],
+      "contexts": [
+        {"id": "MARKET_CONTEXT_A", "text": "Fulbo es un juego donde sos DT y la IA juega. Cada jugador es un activo que podés comprar, vender y tradear."},
+        {"id": "MARKET_CONTEXT_B", "text": "En Fulbo tu plantel también es tu cartera: los jugadores se tradean libremente en un mercado abierto."}
+      ],
+      "bodies": [
+        {"id": "MARKET_BODY_A", "text": "El valor de un jugador depende de su rendimiento, su encaje táctico y los partidos que le quedan. No hay precio fijo: lo pone el mercado. Si leés bien, comprás barato y vendés en el pico."},
+        {"id": "MARKET_BODY_B", "text": "Cuando un jugador se acerca a expirar, su valor cae. El truco es venderlo antes, o comprar gangas que todavía rinden. Es timing puro."},
+        {"id": "MARKET_BODY_C", "text": "Algunos arman equipos para ganar. Otros arman para tradear. Las dos formas funcionan en Fulbo."}
+      ],
+      "ctas": [
+        {"id": "MARKET_CTA_A", "text": "Entrá al mercado en la beta de Fulbo. Link en bio."},
+        {"id": "MARKET_CTA_B", "text": "Hacé tu primer trade en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "MARKET_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Gráfico de precio subiendo sobre jugador", "prompt": "Plano vertical 9:16. Tarjeta de jugador con un gráfico de velas/precio en verde subiendo detrás, estética cripto-deportiva, fondo oscuro."},
+        {"id": "MARKET_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Pantalla de marketplace", "prompt": "Plano vertical 9:16. UI de marketplace con lista de jugadores en venta, precios en $FULBO, botones comprar/vender. Estilo oscuro verde neón."},
+        {"id": "MARKET_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Curva de valor vs partidos restantes", "prompt": "Plano vertical 9:16. Gráfico que muestra el valor de un jugador cayendo a medida que bajan sus partidos restantes. Data viz oscuro con verde neón."},
+        {"id": "MARKET_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Trade confirmado", "prompt": "Plano vertical 9:16. Pantalla de confirmación de trade con un tilde verde, monto en $FULBO y tarjeta de jugador transferida."},
+        {"id": "MARKET_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón entrar al mercado / beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'ABRIR MERCADO' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "PRESALE_BETA": {
+      "name": "Entrá ahora (pre-sale)",
+      "description": "Fase actual: pre-sale con beta jugable. Ventaja de entrar temprano.",
+      "hooks": [
+        {"id": "PRESALE_BETA_HOOK_A", "text": "Fulbo todavía es chico. Por eso es el mejor momento para entrar."},
+        {"id": "PRESALE_BETA_HOOK_B", "text": "Antes de que esto explote, ya vas a estar adentro."},
+        {"id": "PRESALE_BETA_HOOK_C", "text": "La beta está abierta y casi nadie lo sabe todavía."}
+      ],
+      "contexts": [
+        {"id": "PRESALE_BETA_CONTEXT_A", "text": "Fulbo es un manager de fútbol con IA: sos DT, armás el equipo y la inteligencia artificial juega los partidos."},
+        {"id": "PRESALE_BETA_CONTEXT_B", "text": "Fulbo es un juego donde no jugás el partido: lo armás. La IA simula y vos competís como director técnico."}
+      ],
+      "bodies": [
+        {"id": "PRESALE_BETA_BODY_A", "text": "Estamos en pre-sale y la beta ya está jugable. Los que entran ahora aprenden el sistema antes que el resto y arrancan con ventaja cuando llegue la versión completa."},
+        {"id": "PRESALE_BETA_BODY_B", "text": "El roadmap ya tiene la beta validada y la siguiente fase en marcha. Entrar temprano no es apostar a una promesa: es probar algo que ya funciona."}
+      ],
+      "ctas": [
+        {"id": "PRESALE_BETA_CTA_A", "text": "Entrá a la beta de Fulbo. Link en bio."},
+        {"id": "PRESALE_BETA_CTA_B", "text": "Sumate antes que todos. Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "PRESALE_BETA_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Logo Fulbo emergiendo", "prompt": "Plano vertical 9:16. Logo de Fulbo emergiendo de la oscuridad con destellos verde neón, sensación de proyecto naciente y prometedor."},
+        {"id": "PRESALE_BETA_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Gameplay de beta en celular", "prompt": "Plano vertical 9:16. Mockup de celular mostrando la app de Fulbo con la pantalla de armado de equipo, manos sosteniendo el teléfono, fondo oscuro."},
+        {"id": "PRESALE_BETA_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Roadmap con fase pre-sale resaltada", "prompt": "Plano vertical 9:16. Línea de tiempo de roadmap con 7 fases, la fase 'Pre-Sale' resaltada en verde neón, las anteriores con tilde."},
+        {"id": "PRESALE_BETA_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Comunidad temprana / early adopters", "prompt": "Plano vertical 9:16. Grupo de jugadores/comunidad online conectados, íconos de chat, sensación de movimiento temprano. Fondo oscuro verde neón."},
+        {"id": "PRESALE_BETA_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón entrar a la beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón grande 'ENTRAR A LA BETA' en verde neón sobre fondo oscuro, con 'Fulbo.fun' debajo."},
+        {"id": "PRESALE_BETA_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Contador de usuarios bajo todavía", "prompt": "Plano vertical 9:16. Pantalla tipo dashboard con un contador de jugadores activos en número bajo y una flecha de crecimiento en verde neón. Sensación de 'todavía estás temprano'. Fondo oscuro."},
+        {"id": "PRESALE_BETA_SCENE_006_A", "group": "006", "section": "CTA", "variant": "A", "title": "QR a la beta", "prompt": "Plano vertical 9:16. Un código QR estilizado en verde neón sobre fondo oscuro con el texto 'Escaneá y entrá' y el logo de Fulbo. Llamado a la acción directo para mobile."}
+      ]
+    },
+    "COMPETITIONS": {
+      "name": "Competís todas las semanas",
+      "description": "Liga Semanal gratis con 10 divisiones + Copa de finde con entrada. Puntos +3/+1/-2.",
+      "hooks": [
+        {"id": "COMPETITIONS_HOOK_A", "text": "Hay una liga gratis todas las semanas y casi nadie la está jugando."},
+        {"id": "COMPETITIONS_HOOK_B", "text": "Cuanto más alto subís, menos rivales y más plata por cabeza."},
+        {"id": "COMPETITIONS_HOOK_C", "text": "Acá una racha mala te funde: perder resta puntos."}
+      ],
+      "contexts": [
+        {"id": "COMPETITIONS_CONTEXT_A", "text": "Fulbo es un manager donde sos DT y la IA juega. Con tu equipo competís en ligas y copas reales."},
+        {"id": "COMPETITIONS_CONTEXT_B", "text": "En Fulbo armás el equipo como DT y la IA juega; después medís todo eso compitiendo por premios."}
+      ],
+      "bodies": [
+        {"id": "COMPETITIONS_BODY_A", "text": "La Liga Semanal es gratis, sin entrada, con 10 divisiones. Todos arrancan abajo y suben ganando. Necesitás 25 partidos para entrar al pozo. Arriba hay menos gente, así que el premio por persona es más grande."},
+        {"id": "COMPETITIONS_BODY_B", "text": "Los findes está la Copa: paga entrada en $FULBO, es más corta e intensa, y todos se llevan un pack cosmético garantizado. Mayor riesgo, mayor premio."},
+        {"id": "COMPETITIONS_BODY_C", "text": "El sistema de puntos es brutal: ganar suma 3, empatar 1, perder resta 2. No alcanza con ganar a veces: tenés que ser consistente o te hundís de división."}
+      ],
+      "ctas": [
+        {"id": "COMPETITIONS_CTA_A", "text": "Metete en la liga gratis de Fulbo. Link en bio."},
+        {"id": "COMPETITIONS_CTA_B", "text": "Subí de división en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "COMPETITIONS_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Tabla de liga con 'GRATIS'", "prompt": "Plano vertical 9:16. Tabla de posiciones de una liga con un sello grande 'GRATIS' en verde neón, estilo UI deportiva oscura. Sensación de oportunidad."},
+        {"id": "COMPETITIONS_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Trofeo iluminado en la oscuridad", "prompt": "Plano vertical 9:16. Un trofeo de liga iluminado por un foco con destellos verde neón, fondo oscuro, tono épico de competencia."},
+        {"id": "COMPETITIONS_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Pirámide de 10 divisiones", "prompt": "Plano vertical 9:16. Infografía piramidal de 10 divisiones, la base ancha (muchos jugadores) y la cima angosta (pocos, más premio). Data viz oscuro verde neón."},
+        {"id": "COMPETITIONS_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Pozo de premios repartido", "prompt": "Plano vertical 9:16. Visual de un pozo de premios en $FULBO repartiéndose entre pocos jugadores en la división alta, con monedas/tokens. Fondo oscuro."},
+        {"id": "COMPETITIONS_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Copa de finde con pack garantizado", "prompt": "Plano vertical 9:16. Banner de 'Copa de Fin de Semana' con ícono de entrada/fee y un pack cosmético garantizado brillando. Estilo evento especial, verde neón."},
+        {"id": "COMPETITIONS_SCENE_005_A", "group": "005", "section": "BODY", "variant": "A", "title": "Marcador de puntos +3 / +1 / -2", "prompt": "Plano vertical 9:16. Tres bloques grandes: '+3 victoria' (verde), '+1 empate' (gris), '-2 derrota' (rojo), sobre fondo oscuro. Mensaje de volatilidad."},
+        {"id": "COMPETITIONS_SCENE_006_A", "group": "006", "section": "CTA", "variant": "A", "title": "Botón unirse a la liga", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'JUGAR LA LIGA' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "TACTICS": {
+      "name": "La táctica lo decide todo",
+      "description": "Formaciones, roles por posición y estilo de juego definen el resultado.",
+      "hooks": [
+        {"id": "TACTICS_HOOK_A", "text": "Una formación mal puesta te hace perder antes de empezar."},
+        {"id": "TACTICS_HOOK_B", "text": "El mismo plantel, con otra táctica, es otro equipo."},
+        {"id": "TACTICS_HOOK_C", "text": "No ganás por tener buenos jugadores. Ganás por cómo los ponés."}
+      ],
+      "contexts": [
+        {"id": "TACTICS_CONTEXT_A", "text": "Fulbo es un manager donde sos DT y la IA juega el partido. Toda tu influencia pasa por la táctica que armás antes."},
+        {"id": "TACTICS_CONTEXT_B", "text": "En Fulbo no movés jugadores: definís formación, roles y estilo, y la IA ejecuta tu plan."}
+      ],
+      "bodies": [
+        {"id": "TACTICS_BODY_A", "text": "Elegís formación (4-4-2, 4-3-3, 5-2-3) y le das un rol a cada posición: lateral ofensivo o defensivo, mediocampista creador o box-to-box, delantero referencia o velocista. Cada combinación cambia cómo juega tu equipo."},
+        {"id": "TACTICS_BODY_B", "text": "Después definís el estilo: línea defensiva, presión, cómo salen jugando, cuánto arriesgan. Ahí se gana o se pierde el partido, no en la cancha."},
+        {"id": "TACTICS_BODY_C", "text": "Como los atributos son fijos, la única palanca real es la táctica. Leer al rival y ajustar es lo que separa al que sube de división del que se queda."}
+      ],
+      "ctas": [
+        {"id": "TACTICS_CTA_A", "text": "Diseñá tu táctica en la beta de Fulbo. Link en bio."},
+        {"id": "TACTICS_CTA_B", "text": "Probá tu sistema en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "TACTICS_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Pizarra con jugada que sale mal", "prompt": "Plano vertical 9:16. Pizarra táctica con una formación desordenada y flechas en rojo cruzándose, simbolizando un plan que falla. Fondo oscuro, acento rojo/verde."},
+        {"id": "TACTICS_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Dos formaciones lado a lado", "prompt": "Plano vertical 9:16. Comparación de dos formaciones (mismo plantel) lado a lado, una en rojo y otra en verde neón, sugiriendo resultados opuestos. Fondo oscuro."},
+        {"id": "TACTICS_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Selector de formación", "prompt": "Plano vertical 9:16. UI de selección de formación con opciones 4-4-2, 4-3-3, 5-2-3 en tarjetas, estilo manager oscuro con verde neón."},
+        {"id": "TACTICS_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Roles por posición", "prompt": "Plano vertical 9:16. Cancha con cada posición etiquetada por rol (lateral ofensivo, creador, box-to-box, referencia, velocista) en burbujas verde neón sobre fondo oscuro."},
+        {"id": "TACTICS_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Sliders de estilo de juego", "prompt": "Plano vertical 9:16. Panel con sliders: línea defensiva, presión, riesgo de pases, ritmo. Estética de consola de DT, verde neón sobre oscuro."},
+        {"id": "TACTICS_SCENE_005_A", "group": "005", "section": "BODY", "variant": "A", "title": "Ajuste táctico que cambia el partido", "prompt": "Plano vertical 9:16. Antes/después: una flecha mostrando cómo un ajuste táctico cambia el flujo del equipo en la cancha. Verde neón, fondo oscuro."},
+        {"id": "TACTICS_SCENE_006_A", "group": "006", "section": "CTA", "variant": "A", "title": "Botón diseñar táctica", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'ARMÁ TU TÁCTICA' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "TOKEN": {
+      "name": "La economía $FULBO",
+      "description": "Token en Solana que mueve todo el ecosistema. Premios, mercado, scouts.",
+      "hooks": [
+        {"id": "TOKEN_HOOK_A", "text": "Jugás al fútbol y ganás en una moneda real."},
+        {"id": "TOKEN_HOOK_B", "text": "Hay una economía entera moviéndose detrás de cada partido."},
+        {"id": "TOKEN_HOOK_C", "text": "Lo que ganás en la liga no son puntos. Es plata."}
+      ],
+      "contexts": [
+        {"id": "TOKEN_CONTEXT_A", "text": "Fulbo es un manager de fútbol donde sos DT y la IA juega. Todo el ecosistema se mueve con el token $FULBO en Solana."},
+        {"id": "TOKEN_CONTEXT_B", "text": "En Fulbo competís como DT y los premios, el mercado y los scouts funcionan con $FULBO, su moneda en Solana."}
+      ],
+      "bodies": [
+        {"id": "TOKEN_BODY_A", "text": "$FULBO es la moneda del juego: entrás a competencias, comprás y vendés jugadores, contratás scouts y cobrás premios con ella. Todo conectado en una sola economía."},
+        {"id": "TOKEN_BODY_B", "text": "El supply total es de mil millones de tokens. A medida que más gente juega, más demanda hay para competir, fichar y tradear. La economía se sostiene con el propio juego."},
+        {"id": "TOKEN_BODY_C", "text": "No es especular y nada más: el token tiene uso real adentro. Lo usás para jugar, y jugando bien lo ganás de vuelta."}
+      ],
+      "ctas": [
+        {"id": "TOKEN_CTA_A", "text": "Entrá a la economía de Fulbo en la beta. Link en bio."},
+        {"id": "TOKEN_CTA_B", "text": "Conocé $FULBO en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "TOKEN_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Moneda $FULBO girando", "prompt": "Plano vertical 9:16. Una moneda/token '$FULBO' en 3D girando con destellos verde neón sobre fondo oscuro, estética cripto premium."},
+        {"id": "TOKEN_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Premio en tokens cayendo", "prompt": "Plano vertical 9:16. Lluvia de tokens $FULBO cayendo sobre un trofeo, fondo oscuro, acentos verde neón. Sensación de recompensa."},
+        {"id": "TOKEN_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Logo Solana + $FULBO", "prompt": "Plano vertical 9:16. Logo de Solana junto al token $FULBO conectados por una línea de energía verde/violeta, fondo oscuro, estética blockchain."},
+        {"id": "TOKEN_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Diagrama de usos del token", "prompt": "Plano vertical 9:16. Diagrama circular con el token $FULBO al centro y 4 usos alrededor: competencias, mercado, jugadores, scouts. Iconos en verde neón sobre oscuro."},
+        {"id": "TOKEN_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Supply 1.000.000.000", "prompt": "Plano vertical 9:16. Número grande '1,000,000,000 $FULBO' destacado con tipografía moderna, fondo oscuro, acento verde neón."},
+        {"id": "TOKEN_SCENE_005_A", "group": "005", "section": "BODY", "variant": "A", "title": "Loop económico jugar-ganar", "prompt": "Plano vertical 9:16. Ciclo visual: jugar → ganar $FULBO → fichar/competir → jugar. Flechas circulares en verde neón, fondo oscuro."},
+        {"id": "TOKEN_SCENE_006_A", "group": "006", "section": "CTA", "variant": "A", "title": "Botón economía / beta", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'ENTRAR AL ECOSISTEMA' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "PHILOSOPHY": {
+      "name": "No jugás el partido, lo armás",
+      "description": "Ángulo filosófico: ganás con la cabeza, no con reflejos. Identidad de la marca.",
+      "hooks": [
+        {"id": "PHILOSOPHY_HOOK_A", "text": "No jugás el partido. Armás el equipo que lo gana."},
+        {"id": "PHILOSOPHY_HOOK_B", "text": "Los reflejos no sirven acá. Sirve pensar."},
+        {"id": "PHILOSOPHY_HOOK_C", "text": "¿Y si el fútbol se ganara antes de que arranque el partido?"}
+      ],
+      "contexts": [
+        {"id": "PHILOSOPHY_CONTEXT_A", "text": "Fulbo es un juego donde sos DT: armás el equipo y la IA juega el partido 11 contra 11."},
+        {"id": "PHILOSOPHY_CONTEXT_B", "text": "En Fulbo no controlás futbolistas. Tu trabajo es pensar el equipo; la IA lo ejecuta."}
+      ],
+      "bodies": [
+        {"id": "PHILOSOPHY_BODY_A", "text": "La mayoría de los juegos premian la mano: quién aprieta más rápido. Fulbo premia la cabeza: quién arma mejor. Si pensaste bien el equipo, ya ganaste antes del pitazo."},
+        {"id": "PHILOSOPHY_BODY_B", "text": "No hay inputs durante el partido. No hay caños ni gambetas que dependan de tu pulso. Solo decisiones: plantel, táctica, mercado. El que decide mejor, gana."},
+        {"id": "PHILOSOPHY_BODY_C", "text": "Es fútbol para los que siempre quisieron ser DT y no jugador. Acá el cerebro vale más que los dedos."}
+      ],
+      "ctas": [
+        {"id": "PHILOSOPHY_CTA_A", "text": "Pensá fútbol distinto. Beta abierta, link en bio."},
+        {"id": "PHILOSOPHY_CTA_B", "text": "Convertite en DT en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "PHILOSOPHY_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Frase manifiesto en pantalla", "prompt": "Plano vertical 9:16. Tipografía grande y potente sobre fondo oscuro: 'No jugás el partido. Armás el equipo que lo gana.' Acento verde neón, estética manifiesto de marca."},
+        {"id": "PHILOSOPHY_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Cerebro vs manos", "prompt": "Plano vertical 9:16. Contraste visual: una silueta de cerebro iluminada en verde neón frente a un par de manos apagadas. Mensaje: pensar > reflejos. Fondo oscuro."},
+        {"id": "PHILOSOPHY_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "DT en el banco pensando", "prompt": "Plano vertical 9:16. Director técnico sentado en el banco, concentrado, con la cancha desenfocada al fondo. Tono cinematográfico, acento verde neón."},
+        {"id": "PHILOSOPHY_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Joystick vs pizarra", "prompt": "Plano vertical 9:16. A la izquierda un joystick tachado, a la derecha una pizarra táctica iluminada. Comparación clara de paradigmas. Fondo oscuro verde neón."},
+        {"id": "PHILOSOPHY_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Partido ya ganado antes del pitazo", "prompt": "Plano vertical 9:16. Reloj de partido en 0:00 con un marcador ya a favor difuminado, simbolizando que se ganó en la planificación. Estética conceptual, verde neón."},
+        {"id": "PHILOSOPHY_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón ser DT", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'PENSÁ COMO DT' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "COSMETICS": {
+      "name": "La identidad de tu club",
+      "description": "Logos, camisetas y estadios. Sin impacto en gameplay, pura personalización.",
+      "hooks": [
+        {"id": "COSMETICS_HOOK_A", "text": "Tu club puede tener su propia camiseta, su escudo y su estadio."},
+        {"id": "COSMETICS_HOOK_B", "text": "No es solo ganar. Es que tu club se vea como vos querés."},
+        {"id": "COSMETICS_HOOK_C", "text": "Hay cosméticos que solo conseguís ganando. No se compran."}
+      ],
+      "contexts": [
+        {"id": "COSMETICS_CONTEXT_A", "text": "Fulbo es un manager donde sos DT y la IA juega. Además de competir, personalizás la identidad de tu club."},
+        {"id": "COSMETICS_CONTEXT_B", "text": "En Fulbo armás tu equipo como DT y le das una identidad propia con cosméticos."}
+      ],
+      "bodies": [
+        {"id": "COSMETICS_BODY_A", "text": "Podés personalizar el logo del club, las camisetas y el estadio. No afectan el gameplay: son pura identidad. Tu club se vuelve tuyo de verdad."},
+        {"id": "COSMETICS_BODY_B", "text": "Algunos cosméticos se compran, pero otros solo se ganan compitiendo. Llevar uno de esos es mostrar que estuviste ahí y ganaste."},
+        {"id": "COSMETICS_BODY_C", "text": "En la Copa de finde todos se llevan un pack cosmético garantizado. Tu vitrina crece aunque no salgas campeón."}
+      ],
+      "ctas": [
+        {"id": "COSMETICS_CTA_A", "text": "Armá la identidad de tu club en la beta. Link en bio."},
+        {"id": "COSMETICS_CTA_B", "text": "Personalizá tu equipo en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "COSMETICS_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Camiseta y escudo personalizados", "prompt": "Plano vertical 9:16. Una camiseta de fútbol y un escudo de club personalizados girando en showcase, iluminación de producto, acento verde neón, fondo oscuro."},
+        {"id": "COSMETICS_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Estadio propio iluminado", "prompt": "Plano vertical 9:16. Un estadio personalizado iluminado de noche visto desde afuera, con el escudo del club proyectado. Tono épico, verde neón."},
+        {"id": "COSMETICS_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Editor de identidad de club", "prompt": "Plano vertical 9:16. UI de editor con opciones de logo, kit y estadio en miniaturas seleccionables. Estilo app oscura con verde neón."},
+        {"id": "COSMETICS_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Galería de camisetas", "prompt": "Plano vertical 9:16. Grilla de varias camisetas con diseños distintos, una resaltada en verde neón. Fondo oscuro, estética de colección."},
+        {"id": "COSMETICS_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Cosmético exclusivo de premio", "prompt": "Plano vertical 9:16. Un cosmético con sello 'exclusivo / ganado en competencia' brillando con efecto raro, partículas doradas y verde neón sobre fondo oscuro."},
+        {"id": "COSMETICS_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón personalizar club", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'PERSONALIZÁ TU CLUB' en verde neón sobre fondo oscuro."}
+      ]
+    },
+    "PROGRESSION": {
+      "name": "Sin niveles: progresás con la cabeza",
+      "description": "No hay subir de nivel ni mejorar jugadores. Progresás decidiendo mejor.",
+      "hooks": [
+        {"id": "PROGRESSION_HOOK_A", "text": "Acá no subís de nivel. Y eso lo hace más justo."},
+        {"id": "PROGRESSION_HOOK_B", "text": "No podés mejorar a tus jugadores. Solo podés elegir mejor."},
+        {"id": "PROGRESSION_HOOK_C", "text": "El que más horas mete no gana. Gana el que decide mejor."}
+      ],
+      "contexts": [
+        {"id": "PROGRESSION_CONTEXT_A", "text": "Fulbo es un manager donde sos DT y la IA juega. Los jugadores tienen atributos fijos, no se mejoran."},
+        {"id": "PROGRESSION_CONTEXT_B", "text": "En Fulbo no hay sistema de niveles: cada jugador es lo que es, y vos progresás como DT."}
+      ],
+      "bodies": [
+        {"id": "PROGRESSION_BODY_A", "text": "No hay grindeo para subir stats ni jugadores que se vuelven imparables con el tiempo. Los atributos son fijos. Tu progreso viene de armar mejores planteles y mejores tácticas."},
+        {"id": "PROGRESSION_BODY_B", "text": "Como nadie 'mejora' a la fuerza, no gana el que más horas mete sino el que decide mejor: qué fichar, cómo jugar, cuándo vender. Es un juego de cabeza, no de farmeo."},
+        {"id": "PROGRESSION_BODY_C", "text": "Tu única forma de subir es ganar y escalar divisiones. El mérito está en las decisiones, no en un número de nivel."}
+      ],
+      "ctas": [
+        {"id": "PROGRESSION_CTA_A", "text": "Probá un fútbol sin grindeo. Beta abierta, link en bio."},
+        {"id": "PROGRESSION_CTA_B", "text": "Demostrá tu cabeza en Fulbo.fun."}
+      ],
+      "scenes": [
+        {"id": "PROGRESSION_SCENE_001_A", "group": "001", "section": "HOOK", "variant": "A", "title": "Barra de XP tachada", "prompt": "Plano vertical 9:16. Una barra de experiencia/nivel tipo videojuego tachada con una X en verde neón sobre fondo oscuro. Mensaje: acá no hay niveles."},
+        {"id": "PROGRESSION_SCENE_001_B", "group": "001", "section": "HOOK", "variant": "B", "title": "Atributos con candado (fijos)", "prompt": "Plano vertical 9:16. Tarjeta de jugador con sus atributos y un ícono de candado, indicando que son fijos e inmodificables. Fondo oscuro, verde neón."},
+        {"id": "PROGRESSION_SCENE_002_A", "group": "002", "section": "CONTEXT", "variant": "A", "title": "Jugador con stats inmutables", "prompt": "Plano vertical 9:16. Tarjeta de jugador con atributos estáticos resaltados (velocidad, pase, remate, defensa, físico) y la palabra 'FIJOS'. UI oscura verde neón."},
+        {"id": "PROGRESSION_SCENE_003_A", "group": "003", "section": "BODY", "variant": "A", "title": "Decisiones > horas", "prompt": "Plano vertical 9:16. Balanza visual: de un lado un reloj (horas jugadas), del otro un cerebro (decisiones), inclinándose hacia el cerebro. Verde neón, fondo oscuro."},
+        {"id": "PROGRESSION_SCENE_004_A", "group": "004", "section": "BODY", "variant": "A", "title": "Escalando divisiones por mérito", "prompt": "Plano vertical 9:16. Escalera de divisiones con una flecha ascendente verde neón, sin barras de nivel, solo trofeos por división. Fondo oscuro."},
+        {"id": "PROGRESSION_SCENE_005_A", "group": "005", "section": "CTA", "variant": "A", "title": "Botón fútbol sin grindeo", "prompt": "Plano vertical 9:16. Logo de Fulbo y botón 'JUGÁ CON LA CABEZA' en verde neón sobre fondo oscuro."}
+      ]
+    }
+  }
+}
