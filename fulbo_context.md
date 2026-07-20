@@ -1,4 +1,4 @@
-# FULBO.FUN — Contexto del proyecto
+# FULBO.FUN - Contexto del proyecto
 
 Fuente de verdad para todos los guiones. Si un dato no está acá, no se inventa.
 

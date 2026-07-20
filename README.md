@@ -1,12 +1,12 @@
 # Fulbo Script Bot
 
-Script generator for vertical videos (TikTok / Reels / Shorts) promoting [fulbo.fun](https://fulbo.fun). It doesn't render video — it produces reusable, combinable, measurable **scripts** that the video bot consumes downstream.
+Script generator for vertical videos (TikTok / Reels / Shorts) promoting [fulbo.fun](https://fulbo.fun). It doesn't render video - it produces reusable, combinable, measurable **scripts** that the video bot consumes downstream.
 
 > Docs in Spanish: [README.es.md](README.es.md)
 
 ## Concept
 
-Every video follows a fixed narrative structure — `HOOK → CONTEXT → BODY → CTA` — where the CONTEXT beat always explains what Fulbo is. The generator assembles scripts from a curated content pool (`fulbo_context.md`), tracks which combinations were already produced, and exports CSV/JSONL manifests so performance per script can be measured later.
+Every video follows a fixed narrative structure - `HOOK → CONTEXT → BODY → CTA` - where the CONTEXT beat always explains what Fulbo is. The generator assembles scripts from a curated content pool (`fulbo_context.md`), tracks which combinations were already produced, and exports CSV/JSONL manifests so performance per script can be measured later.
 
 ## Usage
 

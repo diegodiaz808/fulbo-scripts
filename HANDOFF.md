@@ -4,7 +4,7 @@ Este documento define **de dónde saca cada cosa** el bot de video. El script bo
 todo listo; el bot de video solo consume estos archivos. No inventa contenido.
 
 ## Archivo de entrada (la fuente)
-`output/videos.jsonl` — **un video por línea**. Cada línea trae todo lo necesario:
+`output/videos.jsonl` - **un video por línea**. Cada línea trae todo lo necesario:
 
 ```json
 {
@@ -33,7 +33,7 @@ Regla: el orden del guión es SIEMPRE `HOOK → CONTEXT → BODY → CTA`.
 | Texto a narrar / subtitular | `script.HOOK/CONTEXT/BODY/CTA.text`, en ese orden |
 | Qué imagen va en cada momento | `images[]`, campo `section` dice a qué parte pertenece |
 | Archivo de imagen real | `assets/images/<image_id>.png` (ver convención abajo) |
-| Nombre del video final | `video_id` (ej: `VIDEO_0001.mp4`) — NO cambiar |
+| Nombre del video final | `video_id` (ej: `VIDEO_0001.mp4`) - NO cambiar |
 | Duración objetivo | `duration_hint` |
 
 ## Convención de imágenes (el puente)
@@ -45,7 +45,7 @@ Regla: el orden del guión es SIEMPRE `HOOK → CONTEXT → BODY → CTA`.
    en la sección que indica `section`. Así nunca se cruzan imágenes de otro topic.
 
 ## Qué le queda por hacer al bot de video
-El script bot NO hace nada de esto — es 100% trabajo del bot de video:
+El script bot NO hace nada de esto - es 100% trabajo del bot de video:
 1. **Voz / narración**: TTS de los 4 textos (o locución). Voz en es-AR.
 2. **Subtítulos**: texto en pantalla sincronizado con la voz (clave en mobile).
 3. **Montaje de imágenes**: una imagen por sección, en orden, con la duración repartida.
